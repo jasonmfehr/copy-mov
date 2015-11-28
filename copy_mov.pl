@@ -9,7 +9,7 @@ use Getopt::Std qw(getopts);
 $|++;
 
 my $SOURCE_DIRECTORY = "/Volumes/CAM_MEM/SD_VIDEO/";
-my $DEFAULT_OUTPUT_DIRECTORY = "/Users/jasonfehr/Movies/transfer/";
+my $DEFAULT_OUTPUT_DIRECTORY = "$ENV{HOME}/Movies/transfer/";
 
 my $output_directory;
 my %opts;
